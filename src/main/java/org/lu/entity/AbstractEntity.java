@@ -10,7 +10,7 @@ public class AbstractEntity {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
+	protected Long id;
 
 	/**
 	 * Returns the identifier of the entity.
